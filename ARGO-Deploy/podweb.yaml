@@ -18,7 +18,7 @@ spec:
         app: webserver
     spec:
       containers:
-      - image: abramdocker/custom-nginx:latest
+      - image: abramdocker/abramnginx:latest
         name: custom-nginx
         resources: {}
 status: {}
