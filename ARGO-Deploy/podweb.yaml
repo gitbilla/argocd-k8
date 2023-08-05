@@ -18,7 +18,7 @@ spec:
         app: webserver
     spec:
       containers:
-      - image: abramdocker/billaweb:v1
+      - image: abramdocker/myflaskapp:v1
         name: custom-nginx
         resources: {}
 status: {}
